@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> Owl | Registration </title>
+    <link rel="shortcut icon" href="owl-logos.jpeg">
+    <meta name="viewport" content="width=device-width, 
+                                   initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Online Lessons">
+    <meta name="keywords" content="Computer Science, Economics, Engineering,online lessons, university">
+    <meta name="author" content="Roni, Alex">
+    <link rel="stylesheet" href="../8_css/ex_2.css">
+    <script src="/10_js/ex5_js.js"></script>
+</head>
+
+<body class="body">
+    <div class="content">
+        <main class="main-class">
+            <nav class="page-header">
+                <ul>
+                    <li class="logo"><a href="../1_Exercise1/Exercise1.html">
+                            <img src="owltask_220.jpg" alt="owl logo"></a>
+                    </li>
+                    <li>
+                        <a href="../2_Courses/2_Courses.html">Courses </a>
+
+                    </li>
+                    <li>
+                        <a href="../6_AboutUs/AboutUs.html">About Us </a>
+
+                    </li>
+                    <li>
+                        <a href="../7_Contact/Contact.html">Contact </a>
+                    </li>
+                    <li>
+                        <a href="../9_register/Register.html">Register </a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="error"></div>
+            <div id="form-registration">
+                <aside class="all-reg-form">
+                    <form class="reg-form">
+                        <h4 class="reg-header">Registration Form<br>Please fill in this form to create your account.</h4>
+                        <fieldset class="reg-fieldset">
+                            <legend class="reg-fieldset-head">User's Info</legend>
+                            <label for="reg-fname">First name:</label><br>
+                            <input type="text" id="reg-fname" name="reg-fname" required><br>
+                            <label for="reg-lname">Last name:</label><br>
+                            <input type="text" id="reg-lname" name="reg-lname" required><br>
+                            <label for="reg-email">Email Address:</label><br>
+                            <input type="email" id="reg-email" name="reg-email" required><br>
+                            <label for="reg-phone">Phone Number:</label><br>
+                            <input type="tel" id="reg-phone" name="reg-phone" placeholder="1234567890" pattern="[0-9]{10}"><br>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <legend class="fieldset-head">Credit Card</legend>
+                            <label for="cardno">Card Number:</label><br>
+                            <input type="number" id="cardno" name="cardno" placeholder="1234 5678 9012 1234" required><br>
+                            <label for="expdate">Expire Date:</label><br>
+                            <input type="date" id="expdate" name="expdate" required><br>
+                            <label for="cardowner">Full Name of Card Holder:</label><br>
+                            <input type="text" id="cardowner" name="cardowner" required><br>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <legend class="fieldset-head">Registration Codes</legend>
+                            <label for="username">User Name:</label><br>
+                            <input type="text" id="username" name="username" required><br>
+                            <label for="password">Password:</label><br>
+                            <input type="password" id="password" name="password" required><br>
+                            <label for="repassword">Repeat Password:</label><br>
+                            <input type="password" id="repassword" name="repassword" required><br>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                                Remember me</label><br>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <legend class="fieldset-head">Your Message</legend>
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" rows="10" cols="50"></textarea>
+                        </fieldset>                        
+                        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                        <div class="clearfix">
+                            <button type="submit" class="signupbtn">Sign Up</button>
+                            <button type="button" class="cancelbtn">Cancel</button>       
+                        </div>
+                    </form>
+                </aside>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-location">
+                <h4 class="location-header">Where to Find Us</h4>
+                <address class="location-address">
+                    <ul>
+                        <li><a href="https://www.google.com/maps/place/%CE%9F%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CF%8C+%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B9%CE%BF+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD/@37.9968185,23.7338505,15.75z/data=!4m5!3m4!1s0x14a1a2ccc0f74c4d:0x98bfad208765bc87!8m2!3d37.994042!4d23.7328114"> Patision 76
+                                <br> Athens, 104 34 </a>
+                        </li>
+                        <li> 210 8203 9111 </li>
+                        <li> info@owlcourses.com </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/"><img src="facebooklogo.jpg" alt="facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/"><img src="twitterlogo.jpg" alt="twitter"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/"><img src="googlelogo.jpg" alt="google"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/"><img src="instalogo.jpg" alt="instagram"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright-container">
+                <p> &copy; 2021 Owl Inc. All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+</body></html>

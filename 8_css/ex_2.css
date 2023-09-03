@@ -1,0 +1,1117 @@
+/*Font-family*/
+@font-face{                      /* Εισαγωγή γραμματοσειρας Fuzzy_Bubbles/FuzzyBubbles-Bold  */
+    font-family: 'my-font';    
+    src: url('Fuzzy_Bubbles/FuzzyBubbles-Bold.ttf');
+    font-style: normal;
+    font-weight: 1000;
+}
+
+/* 1. Μορφοποίηση body */
+.body{
+    /*background-image: url("Bluee.jpg");    /*Χρώμα και εικόνα background σελιδας */
+    background-color: #b7cad8; 
+    opacity: 1.0;
+    }
+.footer{
+    background-color:#8ab6b3;      /*Χρώμα background για το footer*/
+    border-radius: 15px;
+}
+
+/* 2. Μορφοποίηση menu πλοήγησης αρχικό */
+.main-class > .page-header {      /*Μπάρα menu με display: flex; για responsive   */
+    overflow: hidden;
+    width: 100%;    
+    display: flex;
+    background-color: #133a64;    
+}
+
+
+.page-header ul{
+    list-style-type: none;  
+    display: flex;
+    flex-direction: row;   /* εμφανιση    */
+    flex-wrap: wrap;
+    align-items: center;     
+}
+
+.page-header ul a {
+    margin: 0 10px;    
+    }
+
+.logo img {
+    width: 6em;
+    height: auto;
+    border-radius: 6px;    
+}
+
+.main-class .page-header a:link,
+#rcorners1 {    
+    font-size: 1.9vw;
+    color: #fffdff;
+    border-radius: 5px;   
+    padding: 1px;
+    text-decoration: none;
+
+}
+
+.main-class .page-header a:visited {
+    color: rgba(144, 200, 253, 0.96);    
+}
+
+.main-class .page-header a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 81, 255);
+}
+
+/* 3. Μορφοποίηση links "Go To ->" */
+.footer .page-nav .page-link a{
+    text-decoration: none;
+}
+
+.footer .page-nav .page-link a:visited {
+    color: black;
+}
+.footer .page-nav .page-link a:hover {
+    color: #ffffff;
+}
+
+/* 4. Μορφοποίηση κεντρικής εικόνας */
+
+.main-class > .bg > .bg-photo img{
+    width: 100%;
+    height: auto;    
+    opacity: 0.9;
+      
+}
+
+/* 6. Μορφοποίηση επικεφαλίδας κεντρικής σελίδας */
+.main-class > .art > .art-1 > .art-1-head {
+    text-align: center;
+    text-indent: -100px;
+    color: rgb(13, 12, 15);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3vw;
+}
+
+/* 7. Μορφοποίηση εισαγωγικού κειμένου κεντρικής σελίδας */
+.art-1-par{  
+  padding: 10px;
+  width: 40%;
+  height: auto;
+  border-style: groove;
+  border-width: medium;
+  border-radius: 10px;
+  text-align: justify;
+  text-transform: capitalize; 
+  font-family: Times;
+  font-size:1.8vw;  
+}
+/* 8. Μορφοποίηση λίστας popular subjects */
+.footer > .aside-footer > .aside-head{    
+   text-align: center;
+    color: rgb(13, 12, 15);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+.aside-table{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.1em;
+    
+}
+ .list-title{
+    text-align: left;
+    color: rgb(13, 12, 15);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    
+}
+.head-subj ul{
+    list-style-type: none;
+    text-align: left;
+    color: rgb(13, 12, 15);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.footer > .aside-footer > .aside-table > .body-subj{
+    text-align: center;
+    color: rgb(13, 12, 15);    
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.footer > .aside-footer > .aside-table  {
+   border-collapse: separate;
+    border-spacing: 18px;
+}
+
+/* 8. Μορφοποίηση footer location */
+.footer > .footer-location > .location-header {
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.footer > .footer-location > .location-address ul {
+    list-style-type: none;  
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 19px;
+    padding-left: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;    
+}
+
+.footer .footer-location .location-address a:visited{
+    color: #000000;    
+}
+.footer .footer-location .location-address a:hover{
+    color: rgb(255, 255, 255);    
+}
+
+/* 9. Μορφοποίηση footer social */
+.footer > .social ul{
+    float: right;
+    padding-bottom: 14px;
+    padding-right: 12px;
+    list-style-type: none;
+    margin-bottom: 0.0em;
+    
+}
+.social ul li {
+  display: inline;
+}
+
+.footer > .social img{
+    width: 2.3em;
+    height: auto;
+    border-radius: 6px;    
+}
+
+/* 10. Μορφοποίηση footer copyright */
+.footer > .copyright-container{
+    padding-left: 10px;
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+    padding-top: 0.0em;
+    padding-bottom: 0.0em;
+}
+.footer > .copyright-container p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+    font-weight: 800;
+    color:whitesmoke;
+    background-color: black;
+    width: 16em;
+    height: auto;
+    border-radius: 6px;
+    display: flex;
+    padding-left: 10px;
+}
+
+/* 11. Μορφοποίηση σελιδα 2 course-links */
+.body .course-list .course-links a:link {
+    color: #160deb;   
+}
+.body .course-list .course-links a:visited {
+    color: #05433e;
+    
+}
+
+.body .course-list .course-links a:hover {
+    color: rgb(160, 0, 0);   
+} 
+
+.course-list > .course-links {
+    font-family: sans-serif;
+    
+}
+
+/* 12. Μορφοποίηση σελιδα 2 - courses */
+
+.courses > .article-subj > .header-subj h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.8vw; 
+    color: rgb(1, 13, 82);
+    padding: 2px;
+    width: 30%;
+    height: auto;
+    border-style: groove;
+    border-width: medium;
+    border-radius: 10px;    
+} 
+
+.courses > .article-subj > .img-header img{
+    width: 40%;
+    height: auto;
+    float:left;
+    margin: 5px;
+}
+ 
+.course-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw;
+    width: 30%;
+    height: auto;
+}
+.course-discr {
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    width: 80%;
+    height: auto;
+    text-align: justify;
+}
+.course-list-head {
+    clear: left;
+}
+
+.course-list > .course-list-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.2em;
+    width: 100%;
+    height: auto;
+}
+.course-list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.0em;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+/* 13. Μορφοποίηση footer page-nav */
+.footer > .page-nav  { 
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    width: 20%;
+    height: auto;
+    border-style: groove;
+    border-width: medium;
+    border-radius: 8px;
+    
+}
+
+.footer > .page-nav > .nav-head{
+    font-size: 1.8vw;
+    text-align: center;
+    color: rgb(5, 5, 5);    
+    padding: 1px;
+    margin: 2px;
+    
+}
+.footer > .page-nav ul {
+    font-size: 1.2vw;
+    list-style-type: none;
+    text-align: left;
+    text-decoration: none;
+}
+
+/* 14. Μορφοποίηση σελίδων μαθημάτων (3 - 4 - 5) */
+
+/*Τίτλος*/
+
+.all-lessons > .lessons > .lessons-head h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4vw; 
+    color: rgb(1, 13, 82);
+    padding: 3px;
+    max-width: 40%;    
+    height: auto;
+    border-style: groove;
+    border-width: medium;
+    border-radius: 5px;    
+}
+
+/*Εικόνα*/
+
+.all-lessons > .lessons > .lesson-img img{
+    width: 40%;
+    height: auto;
+    float:left;
+    margin: 5px;
+}
+
+/* Τιτλος περιγραφής & περιγραφή */
+.all-lessons > .lessons > .lesson-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.5vw;
+    width: 40%;
+    height: auto;
+}
+
+.all-lessons > .lessons > .lesson-descr {
+    font-family: sans-serif;
+    font-size: 1.4vw;
+    width: 80%;
+    text-align: justify;
+    padding-left: 10px;
+}
+/*Λίστα μαθημάτων*/
+.all-lessons > .lessons > .lesson-list  {
+    clear: left;
+}
+.all-lessons > .lessons > .lesson-list {
+    
+    padding: 5px;
+}
+
+.lesson-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.5vw;
+    width: 80%;
+    height: auto;
+    padding-left: 10px;
+}
+.study-list{
+    font-size: 1.3vw;
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+/* Info Μαθήματος */
+
+.lesson-info > p {
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    max-width: 80%;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+/* Εξωτερικοί Σύνδεσμοι */
+
+.ex-site h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.ex-site > ul > li > a {
+    font-size: 1.3vw;
+    color: blue;
+    padding-left: 5px;
+}
+
+.ex-site > ul > li > a:visited {
+    color: black;
+}
+.ex-site > ul > li > a:hover {
+    color: rgb(126, 0, 0);
+}
+
+/* 14. Μορφοποίηση σελίδας 6 AboutUs */
+
+.univ-logos img {
+    
+    width: 80%;
+    height: auto;
+    padding: 5px;    
+    border-radius: 50px;  
+}
+
+.creat-head h2 {
+    font-family: sans-serif;
+    font-size: 2vw; 
+    padding-left: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.creat-descr{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.6vw;
+    width: 50%;
+    text-align: justify;
+    padding-left: 10px;
+    overflow: auto;
+}
+.founders > .founders-photo > .found-images img {
+    display: flex;
+    width: 70%;
+    height: 80%;    
+    border-radius: 20px;  
+}
+
+.found-images{
+    width:30%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    box-sizing: border-box;    
+}
+.founders > .found-descr {
+    font-family: "Times New Roman", Times, serif;
+    font-size:1.4vw;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+.founders-photo {
+  justify-content: center;
+  align-items: center;
+}
+
+/* 14. Μορφοποίηση σελίδας 7 Contact */
+
+.logo-contact > img {    
+    width: 20%;
+    height: auto;
+    padding: 3px;    
+    border-radius: 10px; 
+}
+
+.logo-contactpage > .subheading-logo{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.0vw;
+}
+
+/* 15. Μορφοποίηση φορμας Contact σελίδα 7 */
+
+
+.contact-header{
+    width: 80%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.0vw;   
+}
+.fieldset-head{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    padding: 3px;    
+    border-radius: 10px;    
+}
+
+input[type=text], input[type=email], input[type=tel], textarea{
+  width: 90%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#form{    
+  max-width: 35%;
+  padding: 5px;    
+}
+
+/* 1.ΑΣΚ3 grid */
+/* Grid Σελίδας*/
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 10px;
+}
+
+.main-class{    
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;   
+}
+.footer{    
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+/* Grid main κοινό*/
+.main-class{
+    display: grid;
+}
+
+.main-class{
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: minmax(100px, auto);
+}
+.page-header {
+    grid-column: 1 /7;
+    grid-row: 1 / 2;
+}
+
+.bg {
+    grid-column: 1 / 7;
+    grid-row: 2 / 3;
+}
+/* Grid main Σελίδας 1 kai selidas About-Us*/
+.art {
+    grid-column: 1 / 7;
+    grid-row: 3 / 4;
+}
+
+/* Grid main Σελίδας courses(2)*/
+
+.courses {
+    grid-column: 1 / 7;
+    grid-row: 3 / 4;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(50px, auto);
+}
+
+/* Grid footer κοινό*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(100px, auto);
+}
+
+.aside-footer{
+    grid-column: 1 / 7;
+    grid-row: 1 / 2;
+}
+
+.footer-location{
+    grid-column: 1 / 7;
+    grid-row: 2 / 3;
+}
+
+.copyright-container{
+    grid-column: 1 / 4;
+    grid-row: 4 / 5 ;    
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-column: 4 / 7;
+    grid-row: 3 / 4 ;
+}
+
+.page-nav{
+    grid-column: 1 / 7;
+}
+/* Grid Σελίδας 3-4-5 μαθημάτων */
+.all-lessons{
+    display: grid;
+    grid-column: 1 / 7;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(60px, auto);
+    
+}
+
+/* Grid selidas About-Us */
+/* [to .art einai sto grid tis main] */
+
+
+.univ-img{
+    grid-column: 1 / 7;
+    grid-row: 4 / 6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.creat{
+    grid-column: 1 / 7;
+    grid-row: 6 / 7;
+}
+
+.founders{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(60px, auto);
+    grid-column: 1 / 7;
+    grid-row: 7 / 8;     
+}
+.founders-photo{ 
+    grid-column: 1 / 7;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.found-descr{
+    grid-column: 1 / 7;
+    grid-row: 2 / 3;
+}
+
+
+/* Grid selidas contact */
+/* [to .art einai sto grid tis main] */
+
+.logo-contactpage{
+    grid-column: 1 / 7;
+    grid-row: 4 / 5;
+}
+
+#form{    
+    grid-column: 1 / 7;
+    grid-row: 5 / 6;    
+}
+
+/* morfopoisi & gtid selidas register */
+
+#form-registration{    
+    grid-column: 1 / 7;
+    grid-row: 3 / 6; 
+    max-width: 35%;
+    padding: 5px;
+}
+
+.reg-header{
+    width: 80%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.8vw; 
+    text-align: center;
+}
+.reg-fieldset-head{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    padding: 3px;    
+    border-radius: 10px;    
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=number], input[type=date], textarea{
+  width: 90%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* @media queries ergasia 4h*/
+
+
+@media screen and (max-width: 600px) {
+          
+    .page-header li {
+        float: none;
+        width: 60%;    
+    }
+        
+    .main-class .page-header a:link {
+        font-size: 1.1em;
+    }
+    
+    .main-class > .art > .art-1 > .art-1-head {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .art-1-par {      
+      font-size: 1.0em;
+    }
+    .courses{
+        display: grid;
+        grid-column: 1 / 7;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: minmax(100px, auto);    
+    }
+    .courses > .article-subj > .header-subj h2{
+        font-size: 1.0em;
+        width: 50%;
+    }
+    .course-title{
+        font-size: 1.0em;
+        width: 40%;
+    }
+    .img-header{
+        width: 150%
+    }
+    .course-discr{
+        font-size: 1.1em;
+        width: 80%;
+    }
+    .course-list-head{
+        font-size: 1.1em;
+    }
+    
+    .all-lessons{
+        display: grid;
+        grid-column: 1 / 7;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: minmax(100px, auto);    
+    }
+    
+    .all-lessons > .lessons > .lessons-head h2{
+        font-size: 1.0em;
+        width: 100%;
+    }
+    .all-lessons > .lessons > .lesson-title{
+        font-size: 1.0em;
+        width: 100%;
+        clear: left;        
+    }
+    .lesson-img{
+        width: 120%;        
+    }
+    .all-lessons > .lessons > .lesson-descr {
+        font-size: 1.1em;
+        width: 80%;
+    }
+    .all-lessons > .lessons > .lesson-list h4{
+        font-size: 15px;
+        width: 60%;
+    }
+    .all-lessons > .lessons > .lesson-list > .study-list li{
+        font-size: 15px;
+        width: 60%;
+    }
+    .all-lessons > .lessons > .lesson-info p {
+        font-size: 13px;
+        width: 60%;
+    }
+    .all-lessons > .lessons > .ex-site li a{
+       font-size: 15px;
+        width: 60%; 
+    }
+    .footer > .page-nav {        
+        width: 60%
+    }
+    
+    .footer > .page-nav > .nav-head{
+    font-size: 1.0em;
+    text-align: center;    
+    }
+    .footer > .page-nav ul li {
+    font-size: 14px;
+    width: 80%;
+    }
+    .art > .art-1 p{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;    
+    width: 90%;
+    }
+    
+    .univ-logos img {    
+    width: 40%;
+    height: auto;
+    padding: 5px;    
+    border-radius: 50px;  
+    } 
+    
+    .creat-head > h2 {
+        text-align: center;
+        font-size: 1.3em;
+        width: auto;
+        
+    }
+    
+    .creat-descr {
+        font-size: 1.2em;
+        grid-column: 1 / 3;
+        margin: auto;        
+        text-align: center;
+        width: 90%;
+    }
+    
+    .found-descr > h4 {
+        grid-column: 1 / 3;
+        text-align: center;
+        font-size: 3.0em;
+        width: 100%;
+        margin: auto;
+    }
+    #form{    
+        max-width: 80%;
+        padding: 1px;
+        margin: auto;
+    }
+    
+    .logo-contactpage > .subheading-logo{
+        width: 100%;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;   
+    }
+    .contact-header{
+        width: 100%;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;   
+    }
+    .fieldset-head{
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        padding: 3px;    
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    input[type=text], input[type=email], input[type=tel], input[type=number], input[type=date], textarea{
+        width: 100%;
+        padding: 14px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        resize: vertical;        
+    }    
+    
+    
+    #form-registration{    
+        max-width: 80%;
+        padding: 1px;
+        margin: auto;
+    }
+
+    .reg-header{
+        width: 100%;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px; 
+    }
+    .reg-fieldset-head{
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        padding: 3px;    
+        border-radius: 10px;    
+    }
+
+ }
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 992px){
+        
+    .page-header li {
+        font-size: 1.2em; 
+    } 
+    
+    .main-class > .art > .art-1 > .art-1-head {
+        font-size: 2.2em;
+    }
+    
+    .art-1-par {
+      
+      font-size: 1.0em;
+    } 
+    
+     .courses > .article-subj > .header-subj h2{
+        font-size: 1.4em;
+        width: 60%;
+    }
+    .course-title{
+        font-size: 1.0em;
+        width: 30%;
+    }
+    
+    .course-discr{
+        font-size: 1.1em;
+        width: 80%;
+    }
+    .course-list-head{
+        font-size: 1.1em;
+    }
+    
+    .all-lessons > .lessons > .lessons-head h2{
+        font-size: 1.0em;
+        width: 100%;
+    }
+    .all-lessons > .lessons > .lesson-title{
+        font-size: 1.0em;
+        width: 70%;
+        clear: left;
+        
+    }
+    .lesson-img{
+        width: 150%;
+    }
+    .all-lessons > .lessons > .lesson-descr {
+        font-size: 1.0em;
+        width: 70%;
+    }
+     .all-lessons > .lessons > .lesson-list h4{
+        font-size: 15px;
+        width: 60%;
+    }
+    .all-lessons > .lessons > .lesson-list > .study-list li{
+        font-size: 15px;
+        width: 60%;
+    }
+    
+    .all-lessons > .lessons > .lesson-info p {
+        font-size: 12px;
+        width: 60%;
+    }
+    .all-lessons > .lessons > .ex-site li a{
+       font-size: 15px;
+        width: 60%; 
+    }
+    .footer > .page-nav {        
+        width: 40%;
+    }
+    
+    .footer > .page-nav > .nav-head{
+    font-size: 1.0em;
+    text-align: center;
+    }
+    
+    .footer > .page-nav ul li {
+    font-size: 14px;
+    width: 60%;
+    }
+    
+    .art > .art-1 p{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;    
+    width: 90%;
+    }
+    
+     .univ-logos img {    
+    width: 40%;
+    height: auto;
+    padding: 5px;    
+    border-radius: 50px;         
+    }
+    
+    .creat-head > h2 {
+        text-align: center;
+        font-size: 1.3em;
+        width: auto;
+    }
+    
+    .creat-descr {
+        font-size: 1.2em;
+        grid-column: 1 / 3;
+        margin: auto;        
+        text-align: center;
+        width: 90%;
+    }
+     .found-descr > h4 {
+        grid-column: 1 / 3;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+        margin: auto;
+    }
+    .logo-contactpage > .subheading-logo{
+        width: 100%;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;   
+    }
+    .contact-header{
+        width: 100%;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;   
+    }
+    .fieldset-head{
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        padding: 3px;    
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    input[type=text], input[type=email],input[type=tel], textarea{
+        width: 100%;
+        padding: 14px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        resize: vertical;        
+    }
+
+    #form{ 
+        align-content: center;
+        max-width: 60%;
+        padding: 1px; 
+        margin: auto;
+    }
+    
+    input[type=text], input[type=email], input[type=tel], input[type=number], input[type=date], textarea{
+        width: 100%;
+        padding: 14px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        resize: vertical;        
+    }    
+    
+    
+    #form-registration{    
+        max-width: 80%;
+        padding: 1px;
+        margin: auto;
+    }
+
+    .reg-header{
+        width: 100%;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px; 
+    }
+    .reg-fieldset-head{
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        padding: 3px;    
+        border-radius: 10px;    
+    }
+}
+    
+    
+
+
+
+
+
+
+
+
+/*
+Absolute Units
+
+PX: Pixels (px) are considered absolute units, although they are relative to the DPI and resolution of the viewing device. But on the device itself, the PX unit is fixed and does not change based on any other element. Using PX can be problematic for responsive sites, but they are useful for maintaining consistent sizing for some elements. If you have elements that should not be resized, then using PX is a good choice.
+Relative Units
+
+EM: Relative to the parent element
+
+REM: Relative to the root element (HTML tag)
+
+%: Relative to the parent element
+
+VW: Relative to the viewport’s width
+
+VH: Relative to the viewport’s height
+
+Unlike PX, relative units like %, EM, and REM are better suited to responsive design and also help meet accessibility standards. Relative units scale better on different devices because they can scale up and down according to another element’s size.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
